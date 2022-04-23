@@ -264,7 +264,7 @@ bool Graph::loadData(int month, int year, int distance) {
     ifstream myfile;
     vector<string> row;
     vector<vector<string>> data;
-    myfile.open("C://FTP/Cory/University of Florida/Data Structures and Algorithms/Project3 87/YelpGraphGUI/Airports2.csv");
+    myfile.open("C://FTP/Cory/University of Florida/Data Structures and Algorithms/Project3 87/YelpGraphGUI/data/Airports2.csv");
     //myfile << "Writing this to a file.\n";
     if (!myfile.is_open()) {
         cout << "File Not Found" << endl;
@@ -684,7 +684,7 @@ void MainWindow::paintEvent(QPaintEvent *event){
     matrix.translate(ui->label_2->x()+100,ui->label_2->y() + 100);
     painter.setMatrix(matrix);
 
-    QPixmap pm("C:/FTP/Cory/University of Florida/Data Structures and Algorithms/Project3 87/YelpGraphGUI/usamap.png"); // <- path to image file
+    QPixmap pm("C:/FTP/Cory/University of Florida/Data Structures and Algorithms/Project3 87/YelpGraphGUI/data/usamap.png"); // <- path to image file
     painter.drawPixmap(0,0,1260,868, pm);
 
 
