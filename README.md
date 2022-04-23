@@ -11,7 +11,15 @@
   - Adding ingested data into nodes and forming relationships with other nodes via a graph structure
 
 Example Code Screenshots:
+
+GUI:
   ![alt text](https://github.com/corygrossman/Airport_GraphAlgorithm/blob/main/data/frontend_code.PNG?raw=true)
+
+Graph Structure:
   ![alt text](https://github.com/corygrossman/Airport_GraphAlgorithm/blob/main/data/graph_structure.PNG?raw=true)
+
+Node Structure:
   ![alt text](https://github.com/corygrossman/Airport_GraphAlgorithm/blob/main/data/node_structure.PNG?raw=true)
+
+Creation of the graph based on frontend button press:
   ![alt text](https://github.com/corygrossman/Airport_GraphAlgorithm/blob/main/data/graph_code.PNG?raw=true)
