@@ -4,6 +4,16 @@
 
  ![alt text](https://github.com/corygrossman/Airport_GraphAlgorithm/blob/main/data/airport_frontend.PNG?raw=true)
 
+ ## Software Logic
+A program that ingests airline data (3 million flights 1990-2008) and creates a map of the united states through using a graph data structure.
+The program can then animate all of the airports (red nodes) that have a direct flight from the searched airport (blue node) using the depth first or bredth first search algorithm.
+
+![alt text](https://github.com/corygrossman/Airport_GraphAlgorithm/blob/main/data/airport_dfs.PNG?raw=true)
+
+ ## Languages
+ - C++
+ - QT GUI
+
  ## Code Worked on:
   - QT GUI
   - Graph and Node data structures
